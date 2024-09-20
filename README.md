@@ -34,7 +34,7 @@ Review and update the following variables in the `main.tf` file or create a `ter
    allowed_ip  = "your-ip-address"
    key_pair    = "your-key-pair-name"
 
- 4.** Initialize Terraform**
+ 4.**Initialize Terraform**
 Run the following command to initialize your Terraform working directory:
 ```bash
 terraform init
