@@ -34,23 +34,23 @@ Review and update the following variables in the `main.tf` file or create a `ter
    allowed_ip  = "your-ip-address"
    key_pair    = "your-key-pair-name"
 
-4.** Initialize Terraform**
+ 4.** Initialize Terraform**
 Run the following command to initialize your Terraform working directory:
 ```bash
 terraform init
 
-5.**Plan the Infrastructure**
+ 5.**Plan the Infrastructure**
 
 Preview the changes Terraform will make:
 ```bash
 terraform plan
 
-6.** Deploy the Infrastructure**
+ 6.** Deploy the Infrastructure**
 Apply the configuration to create the resources:
 ```bash
 terraform apply
 
-7.** Access the Resources**
+ 7.** Access the Resources**
 
 After successful deployment, Terraform will output key resource details such as:
 - VPC ID
@@ -58,7 +58,7 @@ After successful deployment, Terraform will output key resource details such as:
 - RDS Endpoint
 
 These values can be used to manage or connect to the deployed services.
-8. **Destroy the Infrastructure**
+ 8. **Destroy the Infrastructure**
 
 If you need to tear down the infrastructure and delete all the created resources, you can use:
 ```bash
