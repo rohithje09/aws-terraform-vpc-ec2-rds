@@ -30,7 +30,6 @@ Review and update the following variables in the `main.tf` file or create a `ter
 - `key_pair`: The name of your AWS EC2 key pair.
 
 Example `terraform.tfvars`:
-```hcl
 db_password = "your-db-password"
 allowed_ip  = "your-ip-address"
 key_pair    = "your-key-pair-name"
