@@ -2,6 +2,7 @@
 
 This repository contains a Terraform configuration to automate the deployment of a secure, scalable AWS infrastructure. The infrastructure includes a Virtual Private Cloud (VPC), public and private subnets, an EC2 instance with encrypted volumes, and an RDS MySQL instance, all following AWS best practices for security and optimization.
 
+
 ## Features
 - **VPC**: A Virtual Private Cloud with both public and private subnets, designed for high availability.
 - **EC2 Instance**: An EC2 instance in the private subnet with encrypted EBS volumes using AWS KMS.
